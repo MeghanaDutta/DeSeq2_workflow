@@ -19,6 +19,7 @@ The RNA-seq data used in this analysis was obtained from human airway smooth mus
 The analysis revealed a set of genes that exhibited significant alterations in expression levels upon dexamethasone treatment. These genes are potential candidates for further investigation into the molecular mechanisms underlying the response of airway smooth muscle cells to dexamethasone.
 
 #### Repository Structure:
+- `data/: Contains the processed data used in the analysis.
 - `scripts/`: Includes R scripts used for data preprocessing, DESeq2 analysis, and visualization.
 - `results/`: Contains output files, such as tables of differentially expressed genes and plots.
 
