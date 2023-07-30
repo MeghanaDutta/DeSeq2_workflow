@@ -8,7 +8,7 @@ This repository contains the code and data for a DESeq2 analysis of human airway
 The primary objective of this analysis is to investigate the effects of dexamethasone treatment on human airway smooth muscle cells and identify genes that exhibit significant changes in expression levels.
 
 #### Dataset:
-The RNA-seq data used in this analysis was obtained from human airway smooth muscle cells treated with dexamethasone and untreated controls. The dataset is available [provide data source or accession number if applicable].
+The RNA-seq data used in this analysis was obtained from human airway smooth muscle cells treated with dexamethasone and untreated controls. The dataset is available in Bioconductor (https://bioconductor.org/packages/release/data/experiment/html/airway.html). 
 
 #### Methods:
 1. Differential Expression Analysis: DESeq2, a widely used R/Bioconductor package, was employed to perform the differential expression analysis. This method takes into account the inherent variability in RNA-seq data and provides statistical rigor in identifying significant gene expression changes between treatment groups.
@@ -21,7 +21,6 @@ The analysis revealed a set of genes that exhibited significant alterations in e
 #### Repository Structure:
 - `data/`: Contains the processed data used in the analysis.
 - `scripts/`: Includes R scripts used for data preprocessing, DESeq2 analysis, and visualization.
-- `results/`: Contains output files, such as tables of differentially expressed genes and plots.
 
 
 #### Future Work:
