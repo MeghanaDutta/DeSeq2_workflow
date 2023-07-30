@@ -22,10 +22,10 @@ sample_info <- sample_info %>%
   mutate(dexamethasone = ifelse(dexamethasone == "trt", "treated", "untreated"))
 
 # Save sample information to CSV
-sample_info_file <- "/Users/meghanadutta/Documents/RNASeq_pipeline/sample_info.csv"
+sample_info_file <- "your/file/destination/with/filename"
 write.csv(sample_info, file = sample_info_file, row.names = FALSE)
 
 # Save counts data to CSV
-counts_data_file <- "/Users/meghanadutta/Documents/RNASeq_pipeline/counts_data.csv"
+counts_data_file <- "your/file/destination/with/filename"
 write.csv(assay(airway), file = counts_data_file, row.names = TRUE)
 
