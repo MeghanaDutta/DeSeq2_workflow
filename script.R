@@ -5,11 +5,11 @@ library(airway)
 
 
 # read in counts data
-counts_data <- read.csv("/Users/meghanadutta/Documents/RNASeq_pipeline/counts_data.csv")
+counts_data <- read.csv("counts_data.csv")
 
 
 # read in sample info
-sample_info <- read.csv("/Users/meghanadutta/Documents/RNASeq_pipeline/sample_info.csv")
+sample_info <- read.csv("sample_info.csv")
 
 
 # check if rows of sample_info match columns of counts_data 
